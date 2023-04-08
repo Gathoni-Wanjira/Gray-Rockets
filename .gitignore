@@ -1,4 +1,5 @@
 node_modules/
+package-lock.json/
 
 # A .gitignore file is a text file that contains a list of files and
 #  directories that Git should ignore when you commit changes to a repository.
