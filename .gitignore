@@ -1,0 +1,10 @@
+node_modules/
+
+# A .gitignore file is a text file that contains a list of files and
+#  directories that Git should ignore when you commit changes to a repository.
+#  This file helps you prevent sensitive information, temporary files, build artifacts,
+#  and other files that should not be version-controlled from being accidentally committed 
+# to a Git repository.
+
+
+# Always create a new line to each of the files that you want ignored.
