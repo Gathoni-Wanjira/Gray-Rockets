@@ -1,0 +1,25 @@
+{
+  "name": "gray-rockets",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tailwind.config.js",
+  "dependencies": {
+    "tailwindcss": "^3.3.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tailwind": "npx tailwindcss -i ./Src/input.css -o ./Build/css/styles.css --watch",
+    "prettier": "npx prettier --write **/*.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GATHONI-WANJIRA/Gray-Rockets.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GATHONI-WANJIRA/Gray-Rockets/issues"
+  },
+  "homepage": "https://github.com/GATHONI-WANJIRA/Gray-Rockets#readme"
+}
