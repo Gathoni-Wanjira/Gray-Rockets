@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" class="scroll:sm-smooth">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,116 +10,173 @@
 </head>
 <!-- We use slate while applying the hoover effect. We put dark before a class property to rep the dark theme. -->
 <!-- The body class styling is supposed to be applicable to the whole background of everything in the body. -->
+
 <body class="min-h-screen dark:bg-black dark:text-white bg-slate-50 ">
 
     <!-- Header styling is only applicable to the header section -->
     <!-- HEADER SECTION -->
 
     <header class="bg-teal-700 text-white sticky top-0 z-10">
-    <section class="mx-auto p-4 flex justify-between max-w-4xl items-center">
-        <h1 class="text-3xl font-medium"> 
-            <a href="#hero">    🚀 Gray Rockets </a>
-        </h1>
-        <!-- Create a div to be able to help you have a button id which is going to style the mobile   version of the website. More like the media queries.
+        <section class="mx-auto p-4 flex justify-between max-w-4xl items-center">
+            <h1 class="text-3xl font-medium">
+                <a href="#Gray Rockets"> 🚀 Gray Rockets </a>
+            </h1>
+            <!-- Create a div to be able to help you have a button id which is going to style the mobile   version of the website. More like the media queries.
         The code in number to be added below reps the menu bar on top right-->
-        <div >
-            <button id="mobile-open-button" class="text-3xl sm:hidden focus:outline-none">
-                &#9776
-            </button>
-            <!-- NAV SECTION  -->
+            <div>
+                <button id="mobile-open-button" class="text-3xl sm:hidden focus:outline-none">
+                    &#9776
+                </button>
+                <!-- NAV SECTION  -->
 
-            <nav class="hidden space-x-8 sm:block text-xl" aria-label="main">
+                <nav class="hidden space-x-8 sm:block text-xl" aria-label="main">
 
-                <a href="#Rockets" class="hover:opacity-90">Rockets</a>
-                <a href="#Testimonials" class="hover:opacity-90">Testimonials</a>
-                <a href="#Contact Us" class="hover:opacity-90">Contact Us</a>
+                    <a href="#Rockets" class="hover:opacity-90">Rockets</a>
+                    <a href="#Testimonials" class="hover:opacity-90">Testimonials</a>
+                    <a href="#Contact Us" class="hover:opacity-90">Contact Us</a>
 
-            </nav>
-        </div>
+                </nav>
+            </div>
 
     </header>
     </section>
 
 
-<!-- MAIN SECTION -->
-<!-- I have thoroughly used this main section to demonstrate media queries effectiveness in both full screens and small screens.
+    <!-- MAIN SECTION -->
+    <!-- I have thoroughly used this main section to demonstrate media queries effectiveness in both full screens and small screens.
 In cases where we have two themes ie dark and default theme .. we usually assign dark theme its desired text color and assign the default theme the normal desired color as well only that we specify for dark themes.
 This is the same way we put normal properties for normal screen and assign desired properties for small screens. -->
-<Main class="mx-auto max-w-4xl ">
-    <section id="Texts -img-section" class=" scroll:mt-40 flex flex-col-reverse sm:flex-row justify-center items-center px-1 sm:px-4 gap-8 mb-12 mt-20 dark:text-white text-slate-900 ">
-    <article id="Texts Section" class="sm:w-1/2 sm:text-5xl">
-    <h1 class="text-6xl font-extrabold text-slate-900 dark:text-white">We Boldly Go <br>
-    <span class="text-indigo-700 dark:text-indigo-300">Where No Rocket</span> <br>
-     Has Gone <br>
-       Before
-    </h1>
-    <p class="font-bold text-2xl my-4 text-slate-700 dark:text-slate-400">We're building rockets for the next <br>
-        century today.From the moon to <br>
-    Mars,Jupyter and beyond.... </p>
+    <Main class="mx-auto max-w-4xl ">
+        <section id="Texts -img-section"
+            class=" scroll:mt-40 flex flex-col-reverse sm:flex-row justify-center items-center px-1 sm:px-4 gap-8 mb-12 mt-20 dark:text-white text-slate-900 ">
+            <article id="Texts Section" class="sm:w-1/2 sm:text-5xl">
+                <h1 class="text-6xl font-extrabold text-slate-900 dark:text-white">We Boldly Go <br>
+                    <span class="text-indigo-700 dark:text-indigo-300">Where No Rocket</span> <br>
+                    Has Gone <br>
+                    Before
+                </h1>
+                <p class="font-bold text-2xl my-4 text-slate-700 dark:text-slate-400">We're building rockets for the
+                    next <br>
+                    century today.From the moon to <br>
+                    Mars,Jupyter and beyond.... </p>
 
-    <h4 class="font-bold text-2xl  text-slate-700 dark:text-slate-400 ">Think Gray Rockets.</h4>
-    </article>
+                <h4 class="font-bold text-2xl  text-slate-700 dark:text-slate-400 ">Think Gray Rockets.</h4>
+            </article>
 
-<img src="Build/Images/rocketdab.png" class="flex-1 w-1/2 h-1/2  ">
+            <img src="Build/Images/rocketdab.png" class="flex-1 w-1/2 h-1/2  ">
 
-</section>
-
-
-<hr class="mx-auto bg-black dark:bg-white w-1/2 mb-2 border-2">
-
-
-<!-- ROCKETS SECTION -->
-<section id="Rockets"class="my-8 p-6 scroll:mt-20">
-    <h2 class="text-4xl font-bold text-center sm:text-5xl mb-6 text-slate-900 dark:text-white">
-        Rockets</h2>
-    <div id="rockets-container" class="flex flex-col-reverse sm:flex-row mx-auto mb-6  text-slate-900 dark:text-white items-center my-12 gap-8 w-full ">
-
-        <div id="container1" class="border border-solid border-slate-900 dark:border-gray-100 bg-white
-        dark:bg-black py-6 px-2 rounded-lg shadow-xl w-2/3 sm:w-5/6 "> 
-            <img src="Build/Images/rocketride.png" class="w-1/2 m-auto mb-6">
-            <h3 class="mx-auto text-center text-3xl text-slate-900 dark:text-white">Explorer</h3> 
-            <p class="sm:block mx-auto text-center text-3xl text-slate-500 dark:text-slate-400">$$</p>
-        </div>
-
-        <div id="container2" class=" border border-solid border-slate-900 dark:border-gray-100 bg-white dark:bg-black py-6 px-2 rounded-lg shadow-xl w-2/3 sm:w-5/6 "> 
-            <img src="Build/Images/rocketlaunch.png" class="w-1/2 m-auto mb-6">
-            <h3 class="mx-auto text-center text-3xl text-slate-900 dark:text-white  ">Infinity</h3>
-            <p class="sm:block mx-auto text-center text-3xl text-slate-500 dark:text-slate-400">$$$</p>
-        </div>
-
-        <div id="container3" class="border border-solid border-slate-900 dark:border-gray-100 bg-white
-        dark:bg-black py-6 px-2 rounded-lg shadow-xl w-2/3 sm:w-5/6 "> 
-            <img src="Build/Images/rocketman.png" class="w-1/2 m-auto mb-6">
-            <h3 class="mx-auto text-center text-3xl text-slate-900 dark:text-white">Adventurer</h3>
-            <p class="sm:block mx-auto text-center text-3xl text-slate-500 dark:text-slate-400">$$$</p>
-        </div>
-    </div>
-</section>
-
-<hr class="mx-auto bg-black dark:bg-white w-1/2 mb-2 border-2">
+        </section>
 
 
-
-<!-- TESTIMONIALS SECTION -->
-
-<section id="Testimonials"class="my-12 p-6">
-    <h2 class="text-4xl font-bold text-center sm:text-5xl mb-6 text-slate-900 dark:text-white">
-        Testimonials</h2>
-</section>
-
-<hr class="mx-auto bg-black dark:bg-white w-1/2 mb-2 border-2">
+        <hr class="mx-auto bg-black dark:bg-white w-1/2 mb-2 border-2">
 
 
-<!-- CONTACT-US SECTION -->
-<section id="CONTACT-US"class="my-12 p-6">
-    <h2 class="text-4xl font-bold text-center sm:text-5xl mb-6 text-slate-900 dark:text-white">
-        Contact-Us</h2>
-</section>
+        <!-- ROCKETS SECTION -->
+        <section id="Rockets" class="my-8 p-6 scroll:mt-20">
+            <h2 class="text-4xl font-bold text-center sm:text-5xl mb-6 text-slate-900 dark:text-white">
+                Rockets</h2>
+            <div id="rockets-containers"
+                class="flex flex-col-reverse sm:flex-row mx-auto mb-6  text-slate-900 dark:text-white items-center my-12 gap-8 w-full ">
 
-<hr class="mx-auto bg-black dark:bg-white w-1/2 mb-2 border-2">
+                <div id="container1" class="border border-solid border-slate-900 dark:border-gray-100 bg-white
+        dark:bg-black py-6 px-2 rounded-lg shadow-xl w-2/3 sm:w-5/6 ">
+                    <img src="Build/Images/rocketride.png" class="w-1/2 m-auto mb-6">
+                    <h3 class="mx-auto text-center text-3xl text-slate-900 dark:text-white">Explorer</h3>
+                    <p class="sm:block mx-auto text-center text-3xl text-slate-500 dark:text-slate-400">$$</p>
+                </div>
 
-</Main>
+                <div id="container2"
+                    class=" border border-solid border-slate-900 dark:border-gray-100 bg-white dark:bg-black py-6 px-2 rounded-lg shadow-xl w-2/3 sm:w-5/6 ">
+                    <img src="Build/Images/rocketlaunch.png" class="w-1/2 m-auto mb-6">
+                    <h3 class="mx-auto text-center text-3xl text-slate-900 dark:text-white  ">Infinity</h3>
+                    <p class="sm:block mx-auto text-center text-3xl text-slate-500 dark:text-slate-400">$$$</p>
+                </div>
+
+                <div id="container3" class="border border-solid border-slate-900 dark:border-gray-100 bg-white
+        dark:bg-black py-6 px-2 rounded-lg shadow-xl w-2/3 sm:w-5/6 ">
+                    <img src="Build/Images/rocketman.png" class="w-1/2 m-auto mb-6">
+                    <h3 class="mx-auto text-center text-3xl text-slate-900 dark:text-white">Adventurer</h3>
+                    <p class="sm:block mx-auto text-center text-3xl text-slate-500 dark:text-slate-400">$$$</p>
+                </div>
+            </div>
+        </section>
+
+        <hr class="mx-auto bg-black dark:bg-white w-1/2 mb-2 border-2">
+
+
+
+        <!-- TESTIMONIALS SECTION -->
+
+        <section id="Testimonials" class="my-12 p-6">
+            <h2 class="text-4xl font-bold text-center sm:text-5xl mb-6 text-slate-900 dark:text-white">
+                Testimonials</h2>
+
+            <!-- Testimonials containers. -->
+            <!-- Figure html is used on ablock of text or imgs.
+        You use figcaption element to put captions on the figure -->
+            <figure id="testimonial1" class="my-12">
+
+                <blockquote class="bg-teal-600 dark:bg-black rounded-xl p-10 relative ">
+
+                    <p
+                        class="text-white text-2xl sm:text-3xl text-left mt-2 dark:text-slate-400  ">
+                        &#8220
+                        Gray has always been there for me. Their explorer rocket arrived in a wooden rocket as expected.
+                        Life long customer!A+ shopping experience.
+                        &#8221
+                    </p>
+                   
+                </blockquote>
+                <figcaption class="italic text-xl sm:text-2xl text-slate-700 dark:text-slate-400 mt-2
+                text-right">
+                            &#8212 Miley Robinson-Genius
     
+                        </figcaption>
+            </figure>
+
+            <figure id="testimonial2" class="my-12">
+
+                <blockquote class="bg-teal-600 dark:bg-black rounded-xl p-10 relative ">
+
+                    <p
+                        class="text-white text-2xl sm:text-3xl text-left mt-2 dark:text-slate-400  ">
+                        &#8220
+                        Gray has always been there for me. Their explorer rocket arrived in a wooden rocket as expected.
+                        Life long customer!A+ shopping experience.
+                        &#8221
+                    </p>
+                   
+                </blockquote>
+                <figcaption class="italic text-xl sm:text-2xl text-slate-700 dark:text-slate-400 mt-2
+                text-right">
+                            &#8212 Miley Robinson-Genius
     
+                        </figcaption>
+            </figure>
+
+
+
+
+
+
+
+
+        </section>
+
+        <hr class="mx-auto bg-black dark:bg-white w-1/2 mb-2 border-2">
+
+
+        <!-- CONTACT-US SECTION -->
+        <section id="Contact us" class="my-12 p-6">
+            <h2 class="text-4xl font-bold text-center sm:text-5xl mb-6 text-slate-900 dark:text-white">
+                Contact-Us</h2>
+        </section>
+
+        <hr class="mx-auto bg-black dark:bg-white w-1/2 mb-2 border-2">
+
+    </Main>
+
+
 </body>
+
 </html>
